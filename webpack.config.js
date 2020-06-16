@@ -3,16 +3,16 @@ let path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    index: './src/Component.jsx',
+    Component: './src/Component.jsx',
   },
   output: {
     path: path.resolve('dist'),
-    filename: 'component.min.js',
+    filename: '[name].min.js',
     libraryTarget: 'umd',
     library: {
-      root: 'Component',
-      amd: 'component',
-      commonjs: 'component',
+      root: '[name]',
+      amd: '[name]',
+      commonjs: '[name]',
     },
   },
   module: {
@@ -37,6 +37,24 @@ module.exports = {
       commonjs2: 'axios',
       amd: 'axios',
       root: 'axios',
+    },
+    '@preaction/bootstrap-clips': {
+      commonjs: '@preaction/bootstrap-clips',
+      commonjs2: '@preaction/bootstrap-clips',
+      amd: '@preaction/bootstrap-clips',
+      root: '@preaction/bootstrap-clips',
+    },
+    '@preaction/inputs': {
+      commonjs: '@preaction/inputs',
+      commonjs2: '@preaction/inputs',
+      amd: '@preaction/inputs',
+      root: '@preaction/inputs',
+    },
+    '@preaction/validation': {
+      commonjs: '@preaction/validation',
+      commonjs2: '@preaction/validation',
+      amd: '@preaction/validation',
+      root: '@preaction/validation',
     },
     react: {
       commonjs: 'react',
