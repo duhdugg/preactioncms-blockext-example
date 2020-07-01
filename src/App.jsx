@@ -16,7 +16,7 @@ function App() {
   return (
     <div className='App'>
       <main>
-        <Component preaction={mockPreaction} />
+        <Component preaction={mockPreaction} msg='Hello World' />
       </main>
     </div>
   )
