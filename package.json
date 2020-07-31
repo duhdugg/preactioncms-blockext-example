@@ -26,7 +26,7 @@
     ]
   },
   "devDependencies": {
-    "@preaction/bootstrap-clips": "^2.0.0",
+    "@preaction/bootstrap-clips": "^2.0.1",
     "@preaction/inputs": "^2.0.0",
     "@preaction/validation": "^2.0.0",
     "@testing-library/jest-dom": "^5.11.2",
