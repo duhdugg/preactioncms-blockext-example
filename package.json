@@ -64,7 +64,7 @@
     "react-dom": "^16.13.1"
   },
   "description": "Preaction CMS Extension Block Example",
-  "repository": "https://github.com/duhdugg/preaction-cms-extension-block-example.git",
+  "repository": "https://github.com/duhdugg/preactioncms-blockext-example.git",
   "author": "Doug Elkin <doug@dougelkin.com>",
   "license": "MIT"
 }
