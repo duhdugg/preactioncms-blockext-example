@@ -1386,11 +1386,6 @@
     prop-types "^15.7.2"
     react-quill "^1.3.5"
 
-"@preaction/validation@^2.0.0":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@preaction/validation/-/validation-2.0.1.tgz#e263c918ca2d1bf4fa06dd42265f3773644b14eb"
-  integrity sha512-vXRmdWreqtVTheaiPJ+7Bz8rM+ZxGqgBSiBuJSIcZa6RvraXey48/lruTbFurFC3Hr6n179I6mWjlloxsttKsg==
-
 "@rollup/plugin-babel@^5.1.0":
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.1.0.tgz#ad8b5803fa6e1feb0f168984edc040b90d966450"
