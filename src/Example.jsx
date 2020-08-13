@@ -37,7 +37,7 @@ class ExampleSettings extends React.Component {
   render() {
     return (
       <div>
-        <h6>Example Component Settings</h6>
+        <h6>Example Settings</h6>
         <hr className='mb-3' />
         <Input
           label='Message'
