@@ -1,4 +1,3 @@
-## Preaction CMS Component Template
+## Preaction CMS Extension Block Example
 
-This is a component template for [Preaction CMS](https://github.com/duhdugg/preaction-cms).
-
+This is an example extension block for [Preaction CMS](https://github.com/duhdugg/preaction-cms).
