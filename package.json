@@ -57,7 +57,8 @@
     "rollup": "^2.38.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.0",
-    "rollup-plugin-visualizer": "^5.5.2"
+    "rollup-plugin-visualizer": "^5.5.2",
+    "sass": "^1.44.0"
   },
   "peerDependencies": {
     "@preaction/bootstrap-clips": "^5.0.0-alpha.15",
@@ -70,7 +71,7 @@
     "build": "rollup -c",
     "test": "npm run prettier-check && npm run eslint-check && react-scripts test --watchAll=false",
     "eject": "react-scripts eject",
-    "prettier-check": "prettier -c ./*.json ./*.js src/*.j* public/*.html",
+    "prettier-check": "prettier -c ./*.json ./*.js src/*.j* src/*.scss public/*.html",
     "eslint-check": "eslint --max-warnings 0 ./*.js src/*.j*"
   }
 }

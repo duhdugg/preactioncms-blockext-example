@@ -4,7 +4,7 @@ import { Boilerplate, Card } from '@preaction/bootstrap-clips'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@preaction/bootstrap-clips/dist/preaction-bootstrap-clips.css'
-import './mockcms.css'
+import './mock.scss'
 
 Example.Settings = ExampleSettings
 
@@ -51,7 +51,7 @@ function MockCMS(props) {
   )
   // RENDER
   return (
-    <div className='App'>
+    <div className='App mock'>
       <Boilerplate
         footer={
           <Card header='Settings View' headerTheme='dark'>
