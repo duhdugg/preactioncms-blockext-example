@@ -1,9 +1,12 @@
 import { Example } from './Example.jsx'
+import { ExampleSettings } from './ExampleSettings.jsx'
 import { Boilerplate, Card } from '@preaction/bootstrap-clips'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '@preaction/bootstrap-clips/dist/preaction-bootstrap-clips.css'
 import './mockcms.css'
+
+Example.Settings = ExampleSettings
 
 const mockPropsData = {
   msg: 'Hello, Strangers!',
