@@ -60,8 +60,8 @@
     "rollup-plugin-visualizer": "^5.5.2"
   },
   "peerDependencies": {
-    "@preaction/bootstrap-clips": "^3.0.0",
-    "@preaction/inputs": "^3.0.0",
+    "@preaction/bootstrap-clips": "^5.0.0-alpha.15",
+    "@preaction/inputs": "^5.0.0-alpha.8",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
