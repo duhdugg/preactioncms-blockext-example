@@ -2,6 +2,8 @@ import { Example } from './Example.jsx'
 import { Boilerplate, Card } from '@preaction/bootstrap-clips'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '@preaction/bootstrap-clips/dist/preaction-bootstrap-clips.css'
+import './mockcms.css'
 
 const propsData = {
   msg: 'Hello, Strangers!',
@@ -47,17 +49,9 @@ class MockCMS extends React.Component {
     // this emulates how the component is rendered in Preaction CMS
     return (
       <div className='App'>
-        <Boilerplate>
-          <main className='mt-3 mb-3'>
-            <Card
-              header={mockPreaction.block.settings.header}
-              headerTheme='blue'
-            >
-              <Example preaction={mockPreaction} {...propsData} />
-            </Card>
-          </main>
-          <footer>
-            <Card header='Settings View' headerTheme='dark'>
+        <Boilerplate
+          footer={
+            <Card header='Settings View' headerTheme='dark' className='mb-3'>
               <Example.Settings
                 propsData={propsData}
                 getPropsDataValueHandler={this.getPropsDataValueHandler.bind(
@@ -65,7 +59,15 @@ class MockCMS extends React.Component {
                 )}
               />
             </Card>
-          </footer>
+          }
+        >
+          <Card
+            header={mockPreaction.block.settings.header}
+            headerTheme='blue'
+            className='mb-3'
+          >
+            <Example preaction={mockPreaction} {...propsData} />
+          </Card>
         </Boilerplate>
       </div>
     )
