@@ -26,4 +26,4 @@ ExampleSettings.propTypes = {
   getPropsDataValueHandler: PropTypes.func.isRequired,
 }
 
-export { ExampleSettings }
+export default ExampleSettings

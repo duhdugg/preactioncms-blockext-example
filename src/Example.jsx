@@ -30,4 +30,4 @@ Example.defaultProps = {
   debug: false,
 }
 
-export { Example }
+export default Example
