@@ -22,14 +22,10 @@ rm -r node_modules # IMPORTANT to not skip this cleanup step
 
 ### register the extension (and its settings) in `cms/src/ext/index.js`
 
-In the example below, `@loadable/component` is used to keep the settings component
-separate from the main bundle.
-
 ```javascript
-import React from 'react'
-import loadable from '@loadable/component'
+import React, { Suspense } from 'react'
 import { Spinner } from '@preaction/bootstrap-clips'
-import { Example } from './blockext-example/dist/preactioncms-blockext-example.esm.js'
+import Example from './blockext-example/dist/preactioncms-blockext-example.esm.js'
 ExampleSettings = loadable(
   () =>
     import(
@@ -41,8 +37,7 @@ ExampleSettings = loadable(
 )
 Example.Settings = ExampleSettings
 const blockExtensions = { Example }
-const menuExtensions = {}
-export { blockExtensions, menuExtensions }
+// ...
 ```
 
 ### rebuild CMS client
