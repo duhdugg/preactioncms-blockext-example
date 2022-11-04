@@ -1,5 +1,5 @@
-import { Example } from './Example.jsx'
-import { ExampleSettings } from './ExampleSettings.jsx'
+import Example from './Example.jsx'
+import ExampleSettings from './ExampleSettings.jsx'
 import { Boilerplate, Card } from '@preaction/bootstrap-clips'
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
